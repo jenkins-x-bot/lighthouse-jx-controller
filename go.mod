@@ -1,15 +1,15 @@
 module github.com/jenkins-x/lighthouse-jx-controller
 
 require (
-	github.com/google/go-cmp v0.4.1
+	github.com/google/go-cmp v0.5.4
 	github.com/jenkins-x/jx-api v0.0.13
 	github.com/jenkins-x/jx/v2 v2.1.153
-	github.com/jenkins-x/lighthouse v0.0.911
+	github.com/jenkins-x/lighthouse v0.0.912
 	github.com/pkg/errors v0.9.1
 	github.com/sirupsen/logrus v1.6.0
 	github.com/stretchr/testify v1.6.1
-	k8s.io/apimachinery v0.18.1
-	sigs.k8s.io/controller-runtime v0.5.0
+	k8s.io/apimachinery v0.20.2
+	sigs.k8s.io/controller-runtime v0.8.0
 	sigs.k8s.io/yaml v1.2.0
 )
 
