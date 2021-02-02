@@ -740,6 +740,7 @@ github.com/googleapis/gnostic v0.4.0 h1:BXDUo8p/DaxC+4FJY/SSx3gvnx9C1VdHNgaUkiEL
 github.com/googleapis/gnostic v0.4.0/go.mod h1:on+2t9HRStVgn95RSsFWFz+6Q0Snyqv1awfrALZdbtU=
 github.com/googleapis/gnostic v0.5.1 h1:A8Yhf6EtqTv9RMsU6MQTyrtV1TjWlR6xU9BsZIwuTCM=
 github.com/googleapis/gnostic v0.5.1/go.mod h1:6U4PtQXGIEt/Z3h5MAT7FNofLnw9vXk2cUuW7uA/OeU=
+github.com/googleapis/gnostic v0.5.4 h1:ynbQIWjLw7iv6HAFdixb30U7Uvcmx+f4KlLJpmhkTK0=
 github.com/goph/emperror v0.17.2/go.mod h1:+ZbQ+fUNO/6FNiUo0ujtMjhgad9Xa6fQL9KhH4LNHic=
 github.com/gophercloud/gophercloud v0.0.0-20180629215909-9e34f4686044/go.mod h1:3WdhXV3rUYy9p6AUW8d94kr+HS62Y4VL9mBnFxsD8q4=
 github.com/gophercloud/gophercloud v0.1.0 h1:P/nh25+rzXouhytV2pUHBb65fnds26Ghl8/391+sT5o=
@@ -1295,8 +1296,8 @@ github.com/jenkins-x/lighthouse v0.0.886 h1:6SPqCzzOd83n9iIi5XhGJGLozuUv0T/kZgW5
 github.com/jenkins-x/lighthouse v0.0.886/go.mod h1:+ZHF3gOdLvwkv4zH/6w+T9xDWJEuACabhWKtD+4BHYc=
 github.com/jenkins-x/lighthouse v0.0.887 h1:PZaqxjCKbwUXVzwQQKwpxp+7N+bCAJ+ZPEmpM9ntJOs=
 github.com/jenkins-x/lighthouse v0.0.887/go.mod h1:A4c1ADzp8ME8whPVNXR1HBwtG+sOuocioTaeSKwTGxY=
-github.com/jenkins-x/lighthouse v0.0.922 h1:OGQ4TjTps8eaGDSqqW9a2PLXzVbKn+Zv9DYyNQyH+ww=
-github.com/jenkins-x/lighthouse v0.0.922/go.mod h1:8kK3RiYdIu17OGzop/ZMsLmmo4LcFh7nYgupq7/ismE=
+github.com/jenkins-x/lighthouse v0.0.923 h1:foHgdZsMn3JzytA7QAqaMrVsCPfepjpCVgMxOPWYAo8=
+github.com/jenkins-x/lighthouse v0.0.923/go.mod h1:8kK3RiYdIu17OGzop/ZMsLmmo4LcFh7nYgupq7/ismE=
 github.com/jenkins-x/logrus-stackdriver-formatter v0.1.1-0.20200408213659-1dcf20c371bb h1:woC0LbYpL9rgwZn13Z0KQBEGAmi9ugpWgWtQezHqsBM=
 github.com/jenkins-x/logrus-stackdriver-formatter v0.1.1-0.20200408213659-1dcf20c371bb/go.mod h1:Erk5rrGYkvFlFAoVbz/7obMDEIUFCEbhK1odoR0Msqo=
 github.com/jenkins-x/logrus-stackdriver-formatter v0.2.3 h1:NuRWKUPCEX1wKlXA8ZYSG28qGKd41R7BK11YDQkPwqo=
