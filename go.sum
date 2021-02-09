@@ -83,6 +83,8 @@ contrib.go.opencensus.io/integrations/ocsql v0.1.2/go.mod h1:8DsSdjz3F+APR+0z0Wk
 dmitri.shuralyov.com/gpu/mtl v0.0.0-20190408044501-666a987793e9/go.mod h1:H6x//7gZCb22OMCxBHrMx7a5I7Hp++hsVxbQ4BYO7hU=
 git.apache.org/thrift.git v0.0.0-20180902110319-2566ecd5d999/go.mod h1:fPE2ZNJGynbRyZ4dJvy6G277gSllfV2HJqblrnkyeyg=
 git.apache.org/thrift.git v0.12.0/go.mod h1:fPE2ZNJGynbRyZ4dJvy6G277gSllfV2HJqblrnkyeyg=
+gitea.com/cameronbraid/go-sdk/gitea v0.13.1-0.20210206144323-3e1728ca18b2 h1:u8AxwueCHINVUyfMubxOJd+wvOV4GQfRdeZ8dKPtzQQ=
+gitea.com/cameronbraid/go-sdk/gitea v0.13.1-0.20210206144323-3e1728ca18b2/go.mod h1:oJY3chIv8Ndep5RNRZarrGwa1J6f9dfW7BcDR5hENR0=
 github.com/Azure/azure-pipeline-go v0.1.8 h1:KmVRa8oFMaargVesEuuEoiLCQ4zCCwQ8QX/xg++KS20=
 github.com/Azure/azure-pipeline-go v0.1.8/go.mod h1:XA1kFWRVhSK+KNFiOhfv83Fv8L9achrP7OxIzeTn1Yg=
 github.com/Azure/azure-sdk-for-go v23.2.0+incompatible/go.mod h1:9XXNKU+eRnpl9moKnB4QOLf1HestfXbmab5FXxiDBjc=
@@ -795,6 +797,7 @@ github.com/grpc-ecosystem/grpc-gateway v1.14.6/go.mod h1:zdiPV4Yse/1gnckTHtghG4G
 github.com/grpc-ecosystem/grpc-gateway v1.14.8/go.mod h1:NZE8t6vs6TnwLL/ITkaK8W3ecMLGAbh2jXTclvpiwYo=
 github.com/h2non/gock v1.0.9 h1:17gCehSo8ZOgEsFKpQgqHiR7VLyjxdAG3lkhVvO9QZU=
 github.com/h2non/gock v1.0.9/go.mod h1:CZMcB0Lg5IWnr9bF79pPMg9WeV6WumxQiUJ1UvdO1iE=
+github.com/h2non/parth v0.0.0-20190131123155-b4df798d6542/go.mod h1:Ow0tF8D4Kplbc8s8sSb3V2oUCygFHVp8gC3Dn6U4MNI=
 github.com/hailocab/go-hostpool v0.0.0-20160125115350-e80d13ce29ed/go.mod h1:tMWxXQ9wFIaZeTI9F+hmhFiGpFmhOHzyShyFUhRm0H4=
 github.com/hashicorp/consul/api v1.0.1/go.mod h1:LQlewHPiuaRhn1mP2XE4RrjnlRgOeWa/ZM0xWLCen2M=
 github.com/hashicorp/consul/api v1.3.0/go.mod h1:MmDNSzIMUjNpY/mQ398R4bk2FnqQLoPndWW5VkKPlCE=
@@ -1004,8 +1007,8 @@ github.com/jenkins-x/go-scm v1.5.197 h1:AW1RrlPrQYhrJ46l7zHL3IPkqhFaLkACz+D2rZPS
 github.com/jenkins-x/go-scm v1.5.197/go.mod h1:pTp8HHrCEVGs24H/8Cy+X/CDXFlKv9VC6zmrXBYNkfE=
 github.com/jenkins-x/go-scm v1.5.200 h1:5DfzReL6BgiwsbRfjWJr4KCQf7wreH1uj9n9dcXsbp8=
 github.com/jenkins-x/go-scm v1.5.200/go.mod h1:pTp8HHrCEVGs24H/8Cy+X/CDXFlKv9VC6zmrXBYNkfE=
-github.com/jenkins-x/go-scm v1.5.216 h1:aQK0rthmvoEh6HqNmb4nPdr0Dj474Q7T6/lFgOrjg2c=
-github.com/jenkins-x/go-scm v1.5.216/go.mod h1:Iuk0V0mt0QGIt50TZyChHqRIiXTnp1ink9RyNoe7o7c=
+github.com/jenkins-x/go-scm v1.5.218 h1:ZP+ZRY6NmYGqWFz1QVgbJMZRCYmELtSPznNPe4Vcizk=
+github.com/jenkins-x/go-scm v1.5.218/go.mod h1:82jddewWs3wXwyWHyFi/3Ft/+l8UN5+zq7Me7+4SpXY=
 github.com/jenkins-x/golang-jenkins v0.0.0-20180919102630-65b83ad42314 h1:kyBMx/ucSV92S+umX/V6DDaPNynlFFOM9MGJWApltoU=
 github.com/jenkins-x/golang-jenkins v0.0.0-20180919102630-65b83ad42314/go.mod h1:C6j5HgwlHGjRU27W4XCs6jXksqYFo8OdBu+p44jqQeM=
 github.com/jenkins-x/jx-api v0.0.13 h1:vK77HgVmw17ik/pbOzJKdrd/itBaFPVWI+VVM9jGHGo=
@@ -1296,8 +1299,8 @@ github.com/jenkins-x/lighthouse v0.0.886 h1:6SPqCzzOd83n9iIi5XhGJGLozuUv0T/kZgW5
 github.com/jenkins-x/lighthouse v0.0.886/go.mod h1:+ZHF3gOdLvwkv4zH/6w+T9xDWJEuACabhWKtD+4BHYc=
 github.com/jenkins-x/lighthouse v0.0.887 h1:PZaqxjCKbwUXVzwQQKwpxp+7N+bCAJ+ZPEmpM9ntJOs=
 github.com/jenkins-x/lighthouse v0.0.887/go.mod h1:A4c1ADzp8ME8whPVNXR1HBwtG+sOuocioTaeSKwTGxY=
-github.com/jenkins-x/lighthouse v0.0.928 h1:jnpEDuRSs8v8EI5AnSxslOTMDixEMJOnV2hXzAWX6no=
-github.com/jenkins-x/lighthouse v0.0.928/go.mod h1:8kK3RiYdIu17OGzop/ZMsLmmo4LcFh7nYgupq7/ismE=
+github.com/jenkins-x/lighthouse v0.0.929 h1:6xb1srYC8m4n43KRyfl34VxQqMzSVNuL5C0rt3mbG48=
+github.com/jenkins-x/lighthouse v0.0.929/go.mod h1:9tJvMaD08azoMzvKCjsPBXcwXz0uwpstYzD5G1X1HPQ=
 github.com/jenkins-x/logrus-stackdriver-formatter v0.1.1-0.20200408213659-1dcf20c371bb h1:woC0LbYpL9rgwZn13Z0KQBEGAmi9ugpWgWtQezHqsBM=
 github.com/jenkins-x/logrus-stackdriver-formatter v0.1.1-0.20200408213659-1dcf20c371bb/go.mod h1:Erk5rrGYkvFlFAoVbz/7obMDEIUFCEbhK1odoR0Msqo=
 github.com/jenkins-x/logrus-stackdriver-formatter v0.2.3 h1:NuRWKUPCEX1wKlXA8ZYSG28qGKd41R7BK11YDQkPwqo=
@@ -2066,6 +2069,7 @@ golang.org/x/net v0.0.0-20190923162816-aa69164e4478/go.mod h1:z5CRVTTTmAJ677TzLL
 golang.org/x/net v0.0.0-20190926025831-c00fd9afed17/go.mod h1:z5CRVTTTmAJ677TzLLGU+0bjPO0LkuOLi4/5GtJWs/s=
 golang.org/x/net v0.0.0-20191002035440-2ec189313ef0/go.mod h1:z5CRVTTTmAJ677TzLLGU+0bjPO0LkuOLi4/5GtJWs/s=
 golang.org/x/net v0.0.0-20191004110552-13f9640d40b9/go.mod h1:z5CRVTTTmAJ677TzLLGU+0bjPO0LkuOLi4/5GtJWs/s=
+golang.org/x/net v0.0.0-20191021144547-ec77196f6094/go.mod h1:z5CRVTTTmAJ677TzLLGU+0bjPO0LkuOLi4/5GtJWs/s=
 golang.org/x/net v0.0.0-20191119073136-fc4aabc6c914/go.mod h1:z5CRVTTTmAJ677TzLLGU+0bjPO0LkuOLi4/5GtJWs/s=
 golang.org/x/net v0.0.0-20191209160850-c0dbc17a3553/go.mod h1:z5CRVTTTmAJ677TzLLGU+0bjPO0LkuOLi4/5GtJWs/s=
 golang.org/x/net v0.0.0-20200114155413-6afb5195e5aa/go.mod h1:z5CRVTTTmAJ677TzLLGU+0bjPO0LkuOLi4/5GtJWs/s=
@@ -2496,7 +2500,9 @@ gopkg.in/gcfg.v1 v1.2.3/go.mod h1:yesOnuUOFQAhST5vPY4nbZsb/huCgGGXlipJsBn0b3o=
 gopkg.in/gemnasium/logrus-airbrake-hook.v2 v2.1.2/go.mod h1:Xk6kEKp8OKb+X14hQBKWaSkCsqBpgog8nAV2xsGOxlo=
 gopkg.in/go-playground/assert.v1 v1.2.1/go.mod h1:9RXL0bg/zibRAgZUYszZSwO/z8Y/a8bDuhia5mkpMnE=
 gopkg.in/go-playground/validator.v8 v8.18.2/go.mod h1:RX2a/7Ha8BgOhfk7j780h4/u/RRjR0eouCJSH80/M2Y=
+gopkg.in/h2non/gentleman.v1 v1.0.4/go.mod h1:JYuHVdFzS4MKOXe0o+chKJ4hCe6tqKKw9XH9YP6WFrg=
 gopkg.in/h2non/gock.v0 v0.1.6/go.mod h1:KjTyaFK6xOUSpvIeLQDkMc/AyfyRKVKXhFxT4QxkM3Q=
+gopkg.in/h2non/gock.v1 v1.0.16/go.mod h1:XVuDAssexPLwgxCLMvDTWNU5eqklsydR6I5phZ9oPB8=
 gopkg.in/inf.v0 v0.9.1 h1:73M5CoZyi3ZLMOyDlQh031Cx6N9NDJ2Vvfl76EDAgDc=
 gopkg.in/inf.v0 v0.9.1/go.mod h1:cWUDdTG/fYaXco+Dcufb5Vnc6Gp2YChqWtbxRZE0mXw=
 gopkg.in/ini.v1 v1.38.2/go.mod h1:pNLf8WUiyNEtQjuu5G5vTm06TEv9tsIgeAvK8hOrP4k=
