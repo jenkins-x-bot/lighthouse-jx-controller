@@ -21,5 +21,5 @@ dependencies:
   owner: jenkins-x
   repo: lighthouse
   url: https://github.com/jenkins-x/lighthouse
-  version: 0.0.925
+  version: 0.0.927
   versionURL: ""
